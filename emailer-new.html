@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sicomoro Portfolio Snapshot</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f5f9;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1d2433;
+        }
+
+        .wrapper {
+            width: 100%;
+            background: linear-gradient(180deg, #061a40 0%, #0b3b60 65%, #f2f5f9 65%, #f2f5f9 100%);
+            padding: 30px 0;
+        }
+
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            background: #ffffff;
+            padding: 26px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 190px;
+            height: auto;
+        }
+
+        .hero {
+            position: relative;
+            padding: 0;
+            text-align: center;
+            color: #ffffff;
+            background: #061a40;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 26px;
+            letter-spacing: 0.5px;
+        }
+
+        .hero p {
+            margin: 10px 0 0;
+            font-size: 15px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.92);
+        }
+
+        .hero-img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .hero-copy {
+            padding: 28px 35px 32px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: #e8f7ff;
+            border-radius: 999px;
+            color: #0077c8;
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        .highlight-card {
+            background: #0b3b60;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 22px;
+            margin-bottom: 25px;
+        }
+
+        .highlight-card h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .highlight-card p {
+            margin: 12px 0 0;
+            font-size: 14px;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .grid-item {
+            flex: 1 1 calc(50% - 14px);
+            background: #f7f9fc;
+            border-radius: 10px;
+            padding: 18px;
+            min-width: 240px;
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+        }
+
+        .grid-item h3 {
+            margin: 0;
+            font-size: 16px;
+            color: #0b3b60;
+        }
+
+        .grid-item p {
+            margin: 6px 0 0;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #4b5563;
+        }
+
+        .grid-item img {
+            width: 42px;
+            height: 42px;
+        }
+
+        .cta {
+            margin: 30px 0 10px;
+            text-align: center;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 12px 26px;
+            background: #ff8a00;
+            color: #ffffff;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .footer {
+            background: #0b3b60;
+            color: #ffffff;
+            padding: 24px 30px;
+        }
+
+        .footer p {
+            margin: 0 0 8px;
+            font-size: 12px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        @media only screen and (max-width: 620px) {
+            .container {
+                width: 92% !important;
+            }
+
+            .grid {
+                flex-direction: column;
+            }
+
+            .grid-item {
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="wrapper" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr>
+            <td align="center">
+                <table class="container" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="header">
+                            <img src="images/logo.jpg" alt="Sicomoro Advisors">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="hero">
+                            <img src="images/hero-img.jpg" alt="Portfolio Update" class="hero-img">
+                            <div class="hero-copy">
+                            <h1>September 2025 Portfolio Pulse</h1>
+                            <p>
+                                A quick glance at how your wealth evolved this quarter, the actions we recommend,
+                                and what lies ahead for the next cycle.
+                            </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content">
+                            <span class="badge">Fresh Insights</span>
+
+                            <div class="highlight-card">
+                                <h2>Net Worth +6.4% QoQ</h2>
+                                <p>
+                                    Diversified equity entries and timely profit-booking on fixed income sleeves
+                                    pushed portfolio value higher despite global rate jitters.
+                                </p>
+                            </div>
+
+                            <div class="grid">
+                                <div class="grid-item">
+                                    <img src="images/icon1.png" alt="Allocation">
+                                    <div>
+                                        <h3>Allocation Refresh</h3>
+                                        <p>
+                                            Rebalanced 7% from large-cap equity into multi-asset mandates to keep
+                                            downside risk capped while retaining upside capture.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="images/icon2.png" alt="Income">
+                                    <div>
+                                        <h3>Income Stream</h3>
+                                        <p>
+                                            Coupon inflows of ₹2.1 Cr realized; reinvestment ladder rolled into
+                                            high-grade PSU issuances with 3.5 year average maturity.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="images/icon3.png" alt="Checklist">
+                                    <div>
+                                        <h3>Action Checklist</h3>
+                                        <p>
+                                            • Confirm PAN based unlock for capital gain statement<br>
+                                            • Approve proposed international feeder allocation<br>
+                                            • Share updated liquidity needs (if any)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="images/icon4.png" alt="Touchpoint">
+                                    <div>
+                                        <h3>Next Touchpoint</h3>
+                                        <p>
+                                            Strategy huddle scheduled for 04 Oct 2025. Reply to this email or ring
+                                            your advisor to add agenda items ahead of time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cta">
+                                <a href="mailto:operations@sicomoro.in">Talk To Your Advisor</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="footer">
+                            <p>Sicomoro Advisors Private Limited • 102, Pharma Search House, Worli, Mumbai 400018</p>
+                            <p>SEBI Reg. INA000009834 • Contact: 022 49636131 • operations@sicomoro.in</p>
+                            <p>
+                                This snapshot is for information only. Please review attached, password-protected statements
+                                for complete holdings and transactional detail.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
